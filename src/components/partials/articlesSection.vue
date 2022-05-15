@@ -90,7 +90,7 @@ export default {
 }
 
 .slider-content {
-  height: 60vh;
+  
   min-height: 500px;
   display: flex;
   justify-content: center;

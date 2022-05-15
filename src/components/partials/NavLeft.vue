@@ -4,8 +4,8 @@
       order online
     </button>
     <ul class="links d-flex mb-0 justify-content-between align-items-center p-0">
-      <li v-for="element in leftLinks" :key="element">
-        <a :href="element.url">{{ element.name }}</a>
+      <li v-for="item in leftLinks" :key="item">
+        <a :href="item.url">{{ item.name }}</a>
       </li>
     </ul>
   </div>
@@ -17,7 +17,8 @@ export default {
     data(){
         return{
             leftLinks:[
-            {name: 'home',
+            {
+              name: 'home',
             url: '#',
            
           },
