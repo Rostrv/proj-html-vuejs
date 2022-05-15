@@ -5,7 +5,9 @@
     <articlesSection/>
     <SpecialsComp/>
     <MidJumbo/>
-    <MembersTeam/>
+    <MembersComp/>
+    <ClientsComp/>
+    
 </div>
     
 </template>
@@ -17,7 +19,10 @@ import UnderJumbo from "./partials/UnderJumbo.vue"
 import articlesSection from './partials/articlesSection.vue';
 import SpecialsComp from "./partials/SpecialsComp.vue";
 import MidJumbo from "./partials/MidJumbo.vue";
-import MembersTeam from "./partials/MembersTeam.vue";
+import MembersComp from "./partials/MembersComp.vue";
+import ClientsComp from "./partials/ClientsComp.vue";
+
+
 
 
 export default{
@@ -28,7 +33,8 @@ export default{
     articlesSection,
     SpecialsComp,
     MidJumbo,
-    MembersTeam
+    MembersComp,
+    ClientsComp
 }
 }
 </script>
