@@ -5,6 +5,7 @@
     <articlesSection/>
     <SpecialsComp/>
     <MidJumbo/>
+    <MembersTeam/>
 </div>
     
 </template>
@@ -16,6 +17,7 @@ import UnderJumbo from "./partials/UnderJumbo.vue"
 import articlesSection from './partials/articlesSection.vue';
 import SpecialsComp from "./partials/SpecialsComp.vue";
 import MidJumbo from "./partials/MidJumbo.vue";
+import MembersTeam from "./partials/MembersTeam.vue";
 
 
 export default{
@@ -26,7 +28,7 @@ export default{
     articlesSection,
     SpecialsComp,
     MidJumbo,
-    
+    MembersTeam
 }
 }
 </script>
