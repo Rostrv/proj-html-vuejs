@@ -4,10 +4,10 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserSecret, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faInstagram, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faInstagram, faLinkedin, faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 import { faEye } from "@fortawesome/free-regular-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faUserSecret, faMagnifyingGlass, faEye, faTwitter, faInstagram, faLinkedin, faFacebook)
+library.add(faUserSecret, faMagnifyingGlass, faEye, faTwitter, faInstagram, faLinkedin, faFacebookSquare)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
