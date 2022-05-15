@@ -9,10 +9,7 @@
       >
         <div class="box">
           <img :src="image.img" alt="" />
-
-          <div class="overlay">
-            <font-awesome-icon icon="fa-regular fa-eye" />
-          </div>
+          <font-awesome-icon icon="fa-regular fa-eye" />
         </div>
       </div>
     </div>
@@ -62,20 +59,14 @@ img {
   width: 100%;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: none;
 
+.box:hover .fa-eye {
+  display: block;
 }
 
-.col-3:hover .overlay {
-  display: block; 
-  
-} 
+.box:hover img {
+  filter: opacity(0.5);
+}
 
 .fa-eye {
   position: absolute;
@@ -87,5 +78,6 @@ img {
   padding: 20px;
   border-radius: 50%;
   cursor: pointer;
+  display: none;
 }
 </style>
