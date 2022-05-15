@@ -1,5 +1,5 @@
 <template>
-  <section class="specials">
+  <section class="specials mb-1">
     <div class="row">
       <div class="col-6 p-0">
         <div class="img-specials">
