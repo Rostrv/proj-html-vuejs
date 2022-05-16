@@ -8,6 +8,7 @@
     <MembersComp/>
     <ClientsComp/>
     <PizzaType/>
+    <EventsComp/>
 </div>
     
 </template>
@@ -22,6 +23,7 @@ import MidJumbo from "./partials/MidJumbo.vue";
 import MembersComp from "./partials/MembersComp.vue";
 import ClientsComp from "./partials/ClientsComp.vue";
 import PizzaType from "./partials/PizzaType.vue";
+import EventsComp from "./partials/EventsComp.vue";
 
 
 
@@ -36,7 +38,8 @@ export default{
     MidJumbo,
     MembersComp,
     ClientsComp,
-    PizzaType
+    PizzaType,
+    EventsComp
 }
 }
 </script>

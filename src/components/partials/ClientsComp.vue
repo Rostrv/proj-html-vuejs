@@ -18,19 +18,19 @@ export default {
             return {
                 clients: [{
                        
+                        image: 'h1-clients-img-4'
+                    },
+                    {
+                        
+                        image: 'h1-clients-img-3'
+                    },
+                    {
+                       
                         image: 'h1-clients-img-1'
                     },
                     {
                         
                         image: 'h1-clients-img-2'
-                    },
-                    {
-                       
-                        image: 'h1-clients-img-3'
-                    },
-                    {
-                        
-                        image: 'h1-clients-img-4'
                     },
                     {
                         
