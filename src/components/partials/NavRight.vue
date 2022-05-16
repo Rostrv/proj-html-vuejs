@@ -1,7 +1,7 @@
 <template>
     <div class="menu d-flex justify-content-between">
         <ul class="links d-flex mb-0 justify-content-between align-items-center p-0">
-            <li v-for="element in rightLinks" :key="element">
+            <li v-for="(element,i) in rightLinks" :key="i">
                 <a :href="element.url">{{element.name}}</a>
             </li>
         </ul>

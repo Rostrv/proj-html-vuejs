@@ -1,5 +1,5 @@
 <template>
-  <section class="booking">
+  <section class="booking mb-1">
     <div class="elements">
       <div class="users">
         <font-awesome-icon icon="fa-solid fa-user-group" />

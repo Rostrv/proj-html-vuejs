@@ -4,7 +4,7 @@
     <ul
       class="links d-flex mb-0 justify-content-between align-items-center p-0"
     >
-      <li v-for="item in leftLinks" :key="item">
+      <li v-for="(item,i) in leftLinks" :key="i">
         <a :href="item.url">{{ item.name }}</a>
       </li>
     </ul>
