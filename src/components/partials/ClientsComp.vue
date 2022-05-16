@@ -46,7 +46,7 @@ export default {
 .clients{
     display: flex;
     justify-content: center;
-    background-color: #f6f6f2;
+    background-color: #f6f7f2;
     padding: 50px 0;
 }
 </style>
