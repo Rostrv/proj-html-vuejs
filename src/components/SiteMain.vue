@@ -9,6 +9,7 @@
     <ClientsComp/>
     <PizzaType/>
     <EventsComp/>
+    <BookingComp/>
 </div>
     
 </template>
@@ -24,6 +25,7 @@ import MembersComp from "./partials/MembersComp.vue";
 import ClientsComp from "./partials/ClientsComp.vue";
 import PizzaType from "./partials/PizzaType.vue";
 import EventsComp from "./partials/EventsComp.vue";
+import BookingComp from "./partials/BookingComp.vue";
 
 
 
@@ -39,7 +41,8 @@ export default{
     MembersComp,
     ClientsComp,
     PizzaType,
-    EventsComp
+    EventsComp,
+    BookingComp
 }
 }
 </script>
